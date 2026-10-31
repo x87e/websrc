@@ -59,9 +59,26 @@ Run verification on 64-bit Windows to execute both architectures. The script req
 
 With no arguments, the application opens an interactive prompt. Output formats are `-raw` (default), `-md`, `-txt`, `-txtx`, `-xml` and `-mdx`. Use `-o FILE` for an explicit destination or `--stdout` for another program to read the result. Default file output goes beside the executable. Existing files require `--overwrite` to replace.
 
-HTML conversion uses static markup/CSS; JavaScript is not executed. PDF layout and font-size heading inference are heuristic. Run `--help` for all options.
+### Output Formats
+* `-raw` : Default dump format.
+* `-md`  : Standard Markdown.
+* `-mdx` : Markdown with predicted font-size hierarchy inference.
+* `-txt` : Plain text.
+* `-txtx`: Plain text with predicted hierarchy.
+* `-xml` : Semantic XML-styled content.
+
+### Routing & Storage
+* `-o FILE`  : Specify an explicit destination path.
+* `--stdout` : Stream content directly to terminal output for piping.
+
+### Technical Notes
+* HTML conversion uses static markup/CSS; JavaScript is not executed.
+* PDF layout and font-size heading inference are heuristic.
+
+Run `--help` for all options.
 
 Dependencies are downloaded by Go during the first build. Third-party licenses and notices are in `third_party/`.
+
 
 <a href="preview.jpg" target="_blank">
   <img src="preview.jpg" alt="CLI Preview" width="800" style="max-width: 100%; height: auto;">
