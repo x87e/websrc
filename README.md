@@ -1,6 +1,8 @@
 # websrc
 
-Standalone Go command-line tool for downloading or reading HTML and PDF files and exporting raw source, Markdown, plain text or structural XML.
+A Windows CLI tool to parse webpages and PDFs into clean text, Markdown, or XML. Features optional hierarchy-aware layout prediction - useful for archiving, scraping, and LLM/MCP context. Dump locally or stream to stdout.
+
+Standalone tool, written in Golang.
 
 ## Build Windows x86 and x64
 
