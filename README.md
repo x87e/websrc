@@ -10,7 +10,7 @@ Run and type help for more information
 
 ## Build Windows x86 and x64
 
-Requires Go 1.27.2 or later. Run from this folder in PowerShell:
+Requires Go 1.27.0 or later. Run from this folder in PowerShell:
 
 ```powershell
 .\build.ps1
