@@ -1,10 +1,12 @@
-# websrc
+# Websrc - web parsing tool
 
 A Windows CLI tool to parse webpages and PDFs into clean text, Markdown, or XML. Features optional hierarchy-aware layout prediction - useful for archiving, scraping, and LLM/MCP context. Dump locally or stream to stdout. Standalone tool, written in Golang.
 
 Run and type help for more information
 
-
+<a href="preview-sm.jpg" target="_blank">
+  <img src="preview-sm.jpg" alt="CLI Preview" width="600" style="max-width: 100%; height: auto;">
+</a>
 
 ## Build Windows x86 and x64
 
@@ -60,3 +62,7 @@ With no arguments, the application opens an interactive prompt. Output formats a
 HTML conversion uses static markup/CSS; JavaScript is not executed. PDF layout and font-size heading inference are heuristic. Run `--help` for all options.
 
 Dependencies are downloaded by Go during the first build. Third-party licenses and notices are in `third_party/`.
+
+<a href="preview.jpg" target="_blank">
+  <img src="preview.jpg" alt="CLI Preview" width="800" style="max-width: 100%; height: auto;">
+</a>
