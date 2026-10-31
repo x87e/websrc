@@ -1,0 +1,11 @@
+This file embeds the Adobe Glyph List (glyphlist.txt, table version
+2.0), https://github.com/adobe-type-tools/agl-aglfn:
+
+Copyright 2002-2019 Adobe (http://www.adobe.com/). Redistribution and
+use in source and binary forms, with or without modification, are
+permitted provided that redistributions of source code retain the
+above copyright notice and this list of conditions, and that neither
+the name of Adobe nor the names of its contributors be used to endorse
+or promote products derived from this software without specific prior
+written permission. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS
+AND CONTRIBUTORS "AS IS" WITHOUT WARRANTIES OF ANY KIND.
