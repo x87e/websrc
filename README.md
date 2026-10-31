@@ -1,8 +1,10 @@
 # websrc
 
-A Windows CLI tool to parse webpages and PDFs into clean text, Markdown, or XML. Features optional hierarchy-aware layout prediction - useful for archiving, scraping, and LLM/MCP context. Dump locally or stream to stdout.
+A Windows CLI tool to parse webpages and PDFs into clean text, Markdown, or XML. Features optional hierarchy-aware layout prediction - useful for archiving, scraping, and LLM/MCP context. Dump locally or stream to stdout. Standalone tool, written in Golang.
 
-Standalone tool, written in Golang.
+Run and type help for more information
+
+
 
 ## Build Windows x86 and x64
 
